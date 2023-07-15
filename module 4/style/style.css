@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;800&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: antiquewhite;
+    padding: 40px 150px 40px 220px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav > ul{
+    display: flex;
+}
+nav ul li{
+  list-style: none;
+  margin-left: 100px;
+  color: var(--dark-02, #424242);
+  font-size: 18px;
+  font-weight: 500;
+}
+nav ul li a{
+    text-decoration: none;
+}
